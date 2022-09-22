@@ -1,0 +1,10 @@
+= form_with url: create_seats_assignments_path, method: :post, local: true do |f|
+  %div
+    = f.label :seat_array
+    %br/
+    = f.text_field :seat_array, value: "[[3,2], [4,3], [2,3], [3,4]]", required: true
+  %div
+    = f.label :passengers
+    %br/
+    = f.text_field :passengers, value: "30", required: true
+  = f.submit "Generate Airplane!"

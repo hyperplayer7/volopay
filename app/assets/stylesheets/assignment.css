@@ -1,0 +1,125 @@
+:css
+  html, body{
+      font-size: 100%;
+  	font-family:Arial, Helvetica, sans-serif;
+  }
+  body{
+  	background:#FFFFFF;
+  }
+  h2{font-size:24px; font-weight:bold; text-transform:uppercase; text-align:center;}
+  .services{
+  	padding:4em 0;
+  }
+  
+  /*-- services --*/
+  .services{
+  	-# background:#00CCCC;
+  }
+  .agile-heading h3{
+  	text-align:center;
+  }
+  .wthree-services-grids{
+  	margin:4em 0 0 0;
+  }
+  .wthree-services-grid {
+  	overflow: hidden;
+  	position: relative;
+  	display: block;
+  	box-shadow: 0 0px 1px rgb(107, 107, 107),0 1px 2px rgba(0,0,0,.24);
+  }
+  .wthree-services-info{
+      padding: 0em 0;
+      background: #FFFFFF;
+      text-align: center;
+  }
+  .wthree-services-info i.fa.fa-money,.wthree-services-info i.fa.fa-comment-o,.wthree-services-info i.fa.fa-scissors,.wthree-services-info i.fa.fa-thumbs-o-up,.wthree-services-info i.fa.fa-bell-o,.wthree-services-info i.fa.fa-sun-o,.wthree-services-info i.fa.fa-credit-card,.wthree-services-info i.fa.fa-bullhorn{
+  	color: #212121;
+      font-size: 3em;
+  }
+  .wthree-services-info h4{
+      color: #fff;
+      font-size: 1.2em;
+      -# margin: 1em 0 0 0;
+      text-transform: uppercase;
+      font-weight: 600;
+  }
+  .services-border{
+      width: 30%;
+      margin: 1em auto 0;
+      border: double 4px #000;
+  }
+  .wthree-services-captn {
+  	height: 100%;
+      width: 100%;
+      position: absolute;
+      padding: 6em 1em;
+      text-align: center;
+      top: -100%;
+      right: 0;
+      background-color: #5D322F;
+  	 -o-transition: all 0.5s ease;
+      -moz-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+      -webkit-transition: all 0.5s ease;
+      transition: all 0.5s ease;
+  }
+  .wthree-services-captn h4 {
+      color: #fff;
+      font-size: 1em;
+      text-transform: uppercase;
+      font-weight: 600;
+      letter-spacing: 4px;
+      margin: 0;
+  }
+  .wthree-services-captn p {
+      font-size: .9em;
+      margin-top: 1em;
+      color: #fff;
+      line-height: 1.8em;
+  }
+  .wthree-services-grid:hover .wthree-services-captn {
+  	display:block;
+  	top: 0%;
+  }
+  .services-grids1{
+  	margin:2em 0 0 0 !important;
+  }
+  
+  .download-div{text-align:center; margin-top:40px; padding:40px 0px; clear:both;}
+  .download{
+  	padding:10px 30px;
+  	background-color:#006699;
+  	color:#000000;
+  	font-size:24px;
+  	text-transform:uppercase;
+  	text-decoration:none;
+  	margin-top:2px;
+  	border-radius:10px;
+  }
+  .window{
+    background-color:#9bbb59;
+    border: double 4px #000;
+
+  }
+  .aisle{
+    background-color:#4f81bd;
+    border: double 4px #000;
+
+  }
+  .middle{
+    background-color:#c0504d;
+    border: double 4px #000;
+  }
+  .x{
+    background:none !important;
+    
+  }
+  .x h4{
+    color:none !important;
+    
+  }
+  .wthree-services{
+    width:5% !important;
+    padding-right: 0px;
+    padding-left: 0px;
+  }

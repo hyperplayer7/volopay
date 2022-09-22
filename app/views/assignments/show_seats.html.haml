@@ -1,0 +1,14 @@
+%link{:href => "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css", :media => "all", :rel => "stylesheet", :type => "text/css"}/
+= stylesheet_link_tag 'assignment'
+
+#services.services
+  .container
+    %h2 Flight to the moon
+    .wthree-services-grids
+      - @sorted_seats.each_with_index do |seat, index|
+        - if (seat.category == 'window' && @sorted_seats[index-1].category == 'window') || seat.category == 'x' && @sorted_seats[index-1].category == 'window'
+          .clearfix
+        .col-sm-3.wthree-services
+          .wthree-services-info{class: ("#{seat.category.to_s}")}
+            %h4 
+              = seat.passenger_number ? seat.passenger_number : 'X'
